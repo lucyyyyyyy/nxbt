@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/Brikwerk/nxbt/master/docs/img/nxbt-logo.png" alt="NXBT" width="200">
+  <img src="https://raw.githubusercontent.com/lucyyyyyyy/nxbt/master/docs/img/nxbt-logo.png" alt="NXBT" width="200">
   <br>
   NXBT
   <br>
@@ -10,9 +10,9 @@
 
 <div align="center">
 
-  [![Stars](https://img.shields.io/github/stars/brikwerk/nxbt.svg)]() 
-  [![GitHub Issues](https://img.shields.io/github/issues/brikwerk/nxbt.svg)](https://github.com/brikwerk/ctqa/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/brikwerk/nxbt.svg)](https://github.com/brikwerk/ctqa/pulls)
+  [![Stars](https://img.shields.io/github/stars/lucyyyyyyy/nxbt.svg)]() 
+  [![GitHub Issues](https://img.shields.io/github/issues/lucyyyyyyy/nxbt.svg)](https://github.com/lucyyyyyyy/nxbt/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucyyyyyyy/nxbt.svg)](https://github.com/lucyyyyyyy/nxbt/pulls)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -26,7 +26,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/Brikwerk/nxbt/master/docs/img/nxbt-example.png)
+![screenshot](https://raw.githubusercontent.com/lucyyyyyyy/nxbt/master/docs/img/nxbt-example.png)
 
 ## Key Features
 
@@ -89,7 +89,7 @@ The webapp itself will be locally accessible at `http://127.0.0.1:8000` or, if y
 You should see a webpage similar to the following image:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Brikwerk/nxbt/master/docs/img/nxbt-webapp-start.png" alt="NXBT Webapp Start Screen" width="600">
+  <img src="https://raw.githubusercontent.com/lucyyyyyyy/nxbt/master/docs/img/nxbt-webapp-start.png" alt="NXBT Webapp Start Screen" width="600">
 </div>
 
 To create and start a Pro Controller, click the Pro controller graphic. If creation/boot is successful, the website will switch to a loading screen. During this time, you should have the Nintendo Switch you wish to connect to powered on and within range of the host computer.
@@ -99,7 +99,7 @@ To create and start a Pro Controller, click the Pro controller graphic. If creat
 Once you've successfully connected to the Nintendo Switch, you should see a webpage similar to below:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Brikwerk/nxbt/master/docs/img/nxbt-webapp-connected.png" alt="NXBT Webapp Connected Screen" width="600">
+  <img src="https://raw.githubusercontent.com/lucyyyyyyy/nxbt/master/docs/img/nxbt-webapp-connected.png" alt="NXBT Webapp Connected Screen" width="600">
 </div>
 
 Here, you can change your input method, shutdown or restart the controller, and run an NXBT macro.
@@ -124,7 +124,7 @@ sudo nxbt tui
 A loading screen should open and, once connected, the main TUI control screen should load. This should look something like below:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Brikwerk/nxbt/master/docs/img/nxbt-tui.png" alt="NXBT TUI Connected" width="600">
+  <img src="https://raw.githubusercontent.com/lucyyyyyyy/nxbt/master/docs/img/nxbt-tui.png" alt="NXBT TUI Connected" width="600">
 </div>
 
 There are two types of NXBT TUI sessions:
@@ -336,24 +336,19 @@ This means that another service has already bound itself to the Control and Inte
 ## Future Plans
 
 1. Allows for rebinding keys within the TUI and webapp
-2. Add a touchscreen input option for the webapp to enable input on smartphones
-3. Transition the webapp to a more maintainable React build
-4. Allow for recording macros from direct input within the webapp
-5. Allow for replaying recorded input
-6. Write a full testing suite
-
-### Plans that Need More Testing
-
-- Use mouse movement as right stick input
+2. Transition the webapp to a more maintainable React build
+3. Allow for recording macros from direct input within the webapp
+4. Allow for replaying recorded input
 
 ## Issues
 
 - Switching from the slow frequency mode on the "Change Grip/Order" menu to the full input report frequency is still a bit of a frail process. Some game start menus have a frequency of 15Hz but specifically only allow exiting by pressing the A button. The "Change Grip/Order" menu allows for exiting with A, B, or the Home button, however.
 - The webapp can sometimes have small amounts of input lag (<8ms).
+- Support for Switch 2 is currently inconsistent.
 
 ## Credits
 
-A big thank you goes out to all the contributors at the [dekuNukem/Nintendo_Switch_Reverse_Engineering](https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering) repository! Almost all information pertaining to the innerworkings of the Nintendo Switch Controllers comes from the documentation in that repo. Without it, NXBT wouldn't have been possible.
+A big thank you goes out to all the contributors at the [dekuNukem/Nintendo_Switch_Reverse_Engineering](https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering) repository! Almost all information pertaining to the innerworkings of the Nintendo Switch Controllers comes from the documentation in that repo. Without it, NXBT wouldn't have been possible. Thank you to the original creator of NXBT from which this updated project was forked. [Brikwerk/nxbt](https://github.com/Brikwerk/nxbt)
 
 ## License
 
