@@ -57,9 +57,9 @@ class Controller():
         opts = {
             "ServiceRecord": sdp_record,
             "Role": "server",
-            "RequireAuthentication": False,
-            "RequireAuthorization": False,
-            "AutoConnect": True
+            "RequireAuthentication": dbus.Boolean(False),
+            "RequireAuthorization": dbus.Boolean(False),
+            "AutoConnect": dbus.Boolean(True)
         }
         # If the profile has already been registered,
         # catch the error and continue
