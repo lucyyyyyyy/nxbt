@@ -53,6 +53,7 @@ button {
     text-transform: uppercase;
     display: block;
     -webkit-appearance: none;
+    appearance: none;
     background-color: #d9dada;
     font-size: 0.9rem;
 }
